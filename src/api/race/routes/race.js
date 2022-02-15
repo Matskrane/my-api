@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * character router.
+ * race router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::character.character');
+module.exports = createCoreRouter('api::race.race');

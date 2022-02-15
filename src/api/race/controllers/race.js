@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  character controller
+ *  race controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::character.character');
+module.exports = createCoreController('api::race.race');

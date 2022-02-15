@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * character service.
+ * class service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::character.character');
+module.exports = createCoreService('api::class.class');
