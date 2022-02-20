@@ -4,7 +4,8 @@
   "info": {
     "singularName": "class",
     "pluralName": "classes",
-    "displayName": "class"
+    "displayName": "class",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "class_name": {
       "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "races_available": {
+      "type": "richtext"
     }
   }
 }
